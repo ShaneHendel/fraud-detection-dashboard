@@ -1,0 +1,71 @@
+{
+  "roc_auc": 0.9981571785934339,
+  "cv_auc_mean": 0.996667442185578,
+  "cv_auc_std": 0.000990682809668192,
+  "classification_report": {
+    "0": {
+      "precision": 0.9997732200038099,
+      "recall": 0.995474867904078,
+      "f1-score": 0.9976194139956733,
+      "support": 110715.0
+    },
+    "1": {
+      "precision": 0.44640883977900553,
+      "recall": 0.9417249417249417,
+      "f1-score": 0.6056971514242878,
+      "support": 429.0
+    },
+    "accuracy": 0.9952674008493486,
+    "macro avg": {
+      "precision": 0.7230910298914077,
+      "recall": 0.9685999048145099,
+      "f1-score": 0.8016582827099805,
+      "support": 111144.0
+    },
+    "weighted avg": {
+      "precision": 0.9976373123604243,
+      "recall": 0.9952674008493486,
+      "f1-score": 0.9961066499180522,
+      "support": 111144.0
+    }
+  },
+  "feature_importance": {
+    "amt": 0.37122786045074463,
+    "is_night": 0.3575241267681122,
+    "category_fraud_rate": 0.11001916229724884,
+    "tx_frequency_1h": 0.02882307767868042,
+    "amt_to_median_ratio": 0.025691742077469826,
+    "hour": 0.017633093520998955,
+    "age": 0.017283504828810692,
+    "log_city_pop": 0.015191925689578056,
+    "amt_zscore": 0.013370538130402565,
+    "tx_frequency_24h": 0.011859219521284103,
+    "day_of_week": 0.011409535072743893,
+    "distance_to_merchant": 0.010885525494813919,
+    "log_distance": 0.009080830030143261,
+    "log_amt": 0.0,
+    "is_weekend": 0.0
+  },
+  "feature_columns": [
+    "amt",
+    "log_amt",
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "is_night",
+    "amt_zscore",
+    "amt_to_median_ratio",
+    "distance_to_merchant",
+    "log_distance",
+    "category_fraud_rate",
+    "tx_frequency_1h",
+    "tx_frequency_24h",
+    "age",
+    "log_city_pop"
+  ],
+  "n_train": 444575,
+  "n_test": 111144,
+  "fraud_rate_train": 0.003859866164314233,
+  "fraud_rate_test": 0.003859857482185273,
+  "threshold": 0.5
+}

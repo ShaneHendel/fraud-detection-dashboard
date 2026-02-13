@@ -61,7 +61,7 @@ fig = make_subplots(rows=1, cols=2, subplot_titles=("ROC Curve", "Precision-Reca
 fig.add_trace(
     go.Scatter(x=curve_data["roc"]["fpr"], y=curve_data["roc"]["tpr"],
                mode="lines", name=f'ROC (AUC={metrics["roc_auc"]:.3f})',
-               line=dict(color="#0f172a", width=2.5)),
+               line=dict(color="#dc2626", width=2.5)),
     row=1, col=1
 )
 fig.add_trace(

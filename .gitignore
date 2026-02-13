@@ -1,0 +1,19 @@
+# Model artifacts (regenerate with train_model.py)
+models/artifacts/
+
+# Data files (download from Kaggle)
+data/*.csv
+data/*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

@@ -87,4 +87,4 @@ Place `fraudTrain.csv` and `fraudTest.csv` in the `data/` directory.
 
 ## Author
 
-Shane Hendel — [LinkedIn](https://www.linkedin.com/in/shanehendel) | [Virtual Resume](https://huggingface.co/spaces/shanehendel/virtualresume)
+Shane Hendel — [LinkedIn](https://www.linkedin.com/in/shanehendel) 
